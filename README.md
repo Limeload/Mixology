@@ -14,7 +14,7 @@ What a user can do :
 ## Credits
 Cocktail list and ingredient data was originally seeded from https://github.com/teijo/iba-cocktails
 
-Enrichment and images integration with [TheCocktailDB]https://www.thecocktaildb.com/ 
+Enrichment and images integration with [TheCocktailDB](https://www.thecocktaildb.com/) 
 
 ## Project Setup
 
