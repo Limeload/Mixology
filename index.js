@@ -15,7 +15,7 @@ let card = '' ;
 drinks.forEach(drink => {
   card += `
   <div class="container-card">
-    <div class="card border-dark" style="width: 18rem;">
+    <div class="card" style="width: 18rem;">
       <img src="${drink.strDrinkThumb}" class="card-img-top" alt="${drink.strDrink}">
       <div class="card-body">
         <h5 class="card-title">${drink.idDrink}</h5>
