@@ -139,31 +139,6 @@
             
         },
         {
-            "strDrink":"Cosmopolitan Martini",
-            "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/upxxpq1439907580.jpg",
-            "idDrink":"14133",
-            "type":"Alchohol",
-            "glass":"Martini glass",
-            "category":"Others",
-            "instructions": "Pour all ingredients in mixing glass half filled with ice, shake and strain into chilled Martini glass.",
-            "ingredients":[{
-                "ingredientName": "Cointreau",
-                "measurement":"1/2",
-                "units":"ounce"
-            }, {
-                "ingredientName": "Vodka",
-                "measurement":"1",
-                "units":"ounce"
-            }, {
-                "ingredientName": " Whole lime",
-                "measurement":"1/2"
-            }, {
-                "ingredientName": "Cranberry juice",
-                "measurement":"1",
-                "units": "splash"
-            }]
-        },
-        {
             "strDrink":"French Martini",
             "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/clth721504373134.jpg",
             "idDrink":"17213",
