@@ -235,65 +235,45 @@ label.form-check-label {
 }
 
 .container-card {
-    margin-top: 250px;
-    display: flex;
-    justify-content: center;
-    
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
-
 .card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    height: var(--bs-card-height);
-    word-wrap: break-word;
-    background-color: var(--bs-card-bg);
-    background-clip: border-box;
-    border: black;
-    border-radius: 2px;
-  }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  height: auto;
+  border-color: black;
+}
 
-  .card-img,
-  .card-img-top {
-    border-top-left-radius: var(--bs-card-inner-border-radius);
-    border-top-right-radius: var(--bs-card-inner-border-radius);
-  }
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: var(--bs-card-inner-border-radius);
+  border-top-right-radius: var(--bs-card-inner-border-radius);
+}
 
-  .card-body {
-    flex: 1 1 auto;
-    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-    color: var(--bs-card-color);
-  }
+.card-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+}
 
-  .card-title {
-    margin-bottom: var(--bs-card-title-spacer-y);
-  }
+.card-title {
+  margin-bottom: var(--bs-card-title-spacer-y);
+  color: rgb(94, 90, 90);
+  font-family: 'Comfortaa', cursive;
+}
 
-  .card-text:last-child {
-    margin-bottom: 0;
-  }
-
-  .card-link {
-    margin-left: var(--bs-card-spacer-x);
-    text-decoration: none;
-  }
-
-  .card > .list-group {
-    border-top: inherit;
-    border-bottom: inherit;
-    list-style: none;
-  }
-
-  .list-group-flush {
-    border-radius: 0;
-  }
-  .list-group-flush > .list-group-item {
-    border-width: 0 0 var(--bs-list-group-border-width);
-  }
-  .list-group-flush > .list-group-item:last-child {
-    border-bottom-width: 0;
-  }
- 
-  
+.card-text:last-child {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Comfortaa', cursive;
+}
