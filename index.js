@@ -1,33 +1,34 @@
 document.addEventListener('DOMContentLoaded', () => { 
-    fetch('http://localhost:3000/drinks', {method : 'GET'})
-    .then(response => response.json())
-    .catch(error => console.error("Error:", error))
-    .then(response => console.log("Success:", JSON.stringify(response)))
-    .then(cocktails => displayCocktails(cocktails?.drinks));
-    // fetchDrinks();
+    fetchDrinks();
 })
 
-// function fetchDrinks() {
-//   fetch('http://localhost:3000/drinks', {method : 'GET'})
-//   .then(response => response.json())
-//   .then(cocktails => displayCocktails(cocktails.drinks));
-// }
-   
+const fetchDrinks = async () => {
+let url = 'http://localhost:3000/drinks';
+
+const response = await fetch(url);
+const drinks = await response.json();
+
 // Displaying data that will render it into index.html(card)
- displayCocktails = cocktails => {
-  
- const cocktailList = document.querySelector("#cocktail-list");
-  
-    cocktails?.forEach(cocktail => {
-    const {name, image} = cocktail;
-    let cocktailImg = document.createElement("img");
-    cocktailImg.src = image;
-    cocktailList.appendChild(cocktailImg);
-  
-    let cocktailName = name;
-    let heading = document.createElement("h1");
-    heading.innerHTML = cocktailName;
-    cocktailList.appendChild(heading);
-  })
-  
+const cocktailList = document.querySelector('#cocktail-list');
+
+let card = '';
+drinks.forEach(drink => {
+  card += `
+  <div class="container-card">
+        <div class="card" style="width: 18rem;">
+            <img src="${drink.strDrinkThumb}" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title"> ${drink.idDrink}</h5>
+              <p class="card-text"> ${drink.strDrink}</p>
+              <ul class="list-group list-group-flush">
+              <li class="list-group-item">${drink.type}</li>
+              <li class="list-group-item">${drink.glass}</li>
+            </ul>
+            </div>
+  `
+})
+cocktailList.innerHTML = card;
+
 }
+   
+
