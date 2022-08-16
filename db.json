@@ -206,6 +206,133 @@
             }, {
                 "ingredientName": "Soda water"
             }]
-        } 
+        }, 
+        {
+            "strDrink":"A day at the Beach",
+            "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/trptts1454514474.jpg",
+            "type":"Alchohol",
+            "glass":"Highball glass",
+            "category":"Summer",
+            "instructions":"Shake Rum, Amaretto, and Orange Juice in a shaker filled with ice. Strain over ice into a highball glass. Add Grenadine and garnish with a Pineapple Wedge and a Strawberry.",
+            "ingredients":[{
+                "ingredientName": "Coconut rum",
+                "measurement": "1",
+                "units":"ounce"
+            }, {
+                "ingredientName": "Amaretto",
+                "measurement":"1/2",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Orange juice",
+                "measurement":"4",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Grenadine",
+                "measurement":"1/2",
+                "units":"ounce"
+            }]
+        }, 
+        {
+            "strDrink": "A Furlong Too Late",
+            "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/ssxvww1472669166.jpg",
+            "type":"Alchohol",
+            "glass":"Highball glass",
+            "category":"Others",
+            "instructions":"Pour the rum and ginger beer into a highball glass almost filled with ice cubes. Stir well. Garnish with the lemon twist.",
+            "ingredients":[{
+                "ingredientName":"Light rum",
+                "measurement":"2",
+                "units": "ounce"
+            }, {
+                "ingredientName":"Ginger beer",
+                "measurement":"4",
+                "units":"ounce"
+            }, {
+                "ingredientName": "Lemon peel"
+            }]
+
+        } ,
+        {
+            "strDrink": "A Gilligan's Island",
+            "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/wysqut1461867176.jpg",
+            "type":"Alchohol",
+            "glass": "Collins glass",
+            "category":"Others",
+            "instructions":"Shaken, not stirred!",
+            "ingredients":[{
+                "ingredientName":"Vodka",
+                "measurement":"1",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Peach schnapps",
+                "measurement":"1",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Orange juice",
+                "measurement":"3",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Cranberry juice",
+                "measurement":"3",
+                "units":"ounce"
+            }]
+        }, 
+        {
+            "strDrink": "A midsummernight dream",
+            "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/ysqvqp1461867292.jpg",
+            "type":"Alchohol",
+            "glass":"Collins glass",
+            "category":"Summer",
+            "instructions":"Mix the strawberrys in a blender Pour it together with the vodka,kirch and strawberry liquer over ice in a shaker. Shake well and pour in a highballglass. Fill up with the Russchian water",
+            "ingredients":[{
+                "ingredientName":"Vodka",
+                "measurement":"2",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Kirschwasser",
+                "measurement":"1",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Strawberry liqueur",
+                "measurement":"1",
+                "units":"tsp"
+            }, {
+                "ingredientName": "Whole strawberries",
+                "measurement":"5"
+            }, {
+                "ingredientName": "Schweppes Russchian"
+            }]
+        }, 
+        {
+            "strDrink":"A Night In Old Mandalay",
+            "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/vyrvxt1461919380.jpg",
+            "type":"Alchohol",
+            "glass":"Highball glass",
+            "category":"Others",
+            "instructions":"In a shaker half-filled with ice cubes, combine the light rum, añejo rum, orange juice, and lemon juice. Shake well. Strain into a highball glass almost filled with ice cubes. Top with the ginger ale. Garnish with the lemon twist.",
+            "ingredients":[{
+                "ingredientName": "Light rum",
+                "measurement": "1",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Anejo rum",
+                "measurement":"1",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Orange juice",
+                "measurement":"1",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Lemon juice",
+                "measurement":"1/2",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Ginger ale",
+                "measurement":"3",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Lemon peel"
+            }]
+        }
     ]
 }
