@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchDrinks();
 })
 
-let drinks = []
+let drinks = [];
+
 
 const fetchDrinks = async () => {
 let url = 'http://localhost:3000/drinks';
@@ -10,6 +11,7 @@ let url = 'http://localhost:3000/drinks';
 const response = await fetch(url);
 drinks = await response.json();
 displayDrinks(drinks);
+
 }
 
 // Displaying data that will render it into index.html(card)
@@ -41,7 +43,7 @@ fetchDrinks();
 const searchByname = document.getElementById('search-bar');
 
 searchByname.addEventListener('keyup', (e) => {
-  const searchString = e.target.value;
+ const searchString = e.target.value;
  const filterDrinks =  drinks.filter(drink => {
     return (
       drink.strDrink.includes(searchString) || 
@@ -53,3 +55,10 @@ searchByname.addEventListener('keyup', (e) => {
 
 // Toggle light mode and dark mode
 
+const element = document.getElementById("togglebtn");
+
+element.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+});
+
+// Random cocktail generator
