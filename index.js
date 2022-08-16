@@ -39,7 +39,6 @@ fetchDrinks();
 // Search a cocktail by name
 
 const searchByname = document.getElementById('search-bar');
-const result = document.getElementById('cocktail-list');
 
 searchByname.addEventListener('keyup', (e) => {
   const searchString = e.target.value;
@@ -51,3 +50,6 @@ searchByname.addEventListener('keyup', (e) => {
   });
  displayDrinks(filterDrinks);
 })
+
+// Toggle light mode and dark mode
+
