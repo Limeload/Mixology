@@ -2,23 +2,26 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchDrinks();
 })
 
+let drinks = []
+
 const fetchDrinks = async () => {
 let url = 'http://localhost:3000/drinks';
 
 const response = await fetch(url);
-const drinks = await response.json();
+drinks = await response.json();
+displayDrinks(drinks);
+}
 
 // Displaying data that will render it into index.html(card)
 const cocktailList = document.querySelector('#cocktail-list');
 
-let card = '' ;
-drinks.forEach(drink => {
-  card += `
+const displayDrinks = (drinks) => {
+  const card = drinks.map((drink) => {
+  return `
   <div class="container-card">
     <div class="card" style="width: 18rem;">
       <img src="${drink.strDrinkThumb}" class="card-img-top" alt="${drink.strDrink}">
       <div class="card-body">
-        <h5 class="card-title">${drink.idDrink}</h5>
         <p class="card-text">${drink.strDrink}</p>
         <h5 class="card-title">${drink.glass}</h5>
       </div>
@@ -26,8 +29,25 @@ drinks.forEach(drink => {
     </div>
   `
 })
+.join('');
 cocktailList.innerHTML = card;
+};
+fetchDrinks();
 
-}
-   
 
+
+// Search a cocktail by name
+
+const searchByname = document.getElementById('search-bar');
+const result = document.getElementById('cocktail-list');
+
+searchByname.addEventListener('keyup', (e) => {
+  const searchString = e.target.value;
+ const filterDrinks =  drinks.filter(drink => {
+    return (
+      drink.strDrink.includes(searchString) || 
+      drink.glass.includes(searchString)
+    );
+  });
+ displayDrinks(filterDrinks);
+})
