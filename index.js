@@ -3,15 +3,17 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 let drinks = [];
-
+let drinksArray = [];
+let numberOfDrinks;
 
 const fetchDrinks = async () => {
 let url = 'http://localhost:3000/drinks';
 
 const response = await fetch(url);
 drinks = await response.json();
+drinksArray = [...drinks];
+numberOfDrinks = drinks.length;
 displayDrinks(drinks);
-
 }
 
 // Displaying data that will render it into index.html(card)
@@ -62,3 +64,24 @@ element.addEventListener("click", () => {
 });
 
 // Random cocktail generator
+
+
+function getRandomCocktail() {
+  // get random index value
+  let randomIndex = Math.floor(Math.random() * numberOfDrinks);
+  // get random item
+  let item = drinksArray[randomIndex];
+  cocktailList.innerHTML = "";
+  displayDrinks(item);
+}
+
+
+const randomDrinkbtn = document.getElementById("random-drink");
+randomDrinkbtn.addEventListener("click", getRandomCocktail);
+
+// Display all drinks
+
+const showAllDrinks = document.getElementById("show-all");
+showAllDrinks.addEventListener("click", () => {
+  displayDrinks(drinks);
+});
