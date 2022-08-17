@@ -5,17 +5,17 @@ Mixology is a Single Page Application allowing different kinds of selection oper
 What a user can do :
 * Search a cocktail recipe by name.
 * Browse all cocktail recipe lists by the first letter.
-* Filter by ingredient, category, glass, vegan or "makeable from your bar".
+* Toggle dark or light mode.
+* Generate random cocktail recipe.
+## Stretch goals
+* Filter & sort by ingredient, category, glass, vegan or "makeable from your bar".
 * Able to "Favourite" cocktails.
-* Toggle dark or light mode
 * See measurements in either parts, ml, cl or oz.
-
+* Create your own cocktail recipe.
 
 ## Credits
-Cocktail list and ingredient data was originally seeded from https://github.com/teijo/iba-cocktails
 
 Enrichment and images integration with [TheCocktailDB](https://www.thecocktaildb.com/) 
-
 ## Project Setup
 
 To run this project locally you'll need to install ```nodejs / npm``` .
@@ -24,13 +24,19 @@ Clone the respository, then:
 ```npm install```
 ```npm start```
 
+Install `json-server` globally and run the command below to run the server:
+
+`$ json-server --watch db.json`
+
 ## Features
 
 The goal of Mixology is to make a strong first impact with the Landing page, and therefore move the exploration and the research on other parts of the page.
 
 * Landing Page- Striking the first impression and link to its functionalities.
-* Catalog- Alphabetic Navigation bar, each letter invoking an API.
 * Search bar- Search by ingredients, page each request calling an API.
+* Toggle button - Toggles dark mode & light mode.
+* Generate random cocktail button - Generates random cocktail recipe.
+* Show all button - Displays all cocktail recipes.
 
 ## User Stories
 
@@ -43,3 +49,4 @@ As a visitor of the Mixology website, a user can expect the following:
 * To be able to find cocktail recipes with ingredients available by a user.
 * High quality images of the cocktail.
 * To be able to suggest when a user is indecisive.
+
