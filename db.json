@@ -333,6 +333,168 @@
             }, {
                 "ingredientName":"Lemon peel"
             }]
+        },
+        {
+            "strDrink":"A Piece of Ass",
+            "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/tqxyxx1472719737.jpg",
+            "type":"Alchohol",
+            "glass":"Highball glass",
+            "category":"Others",
+            "instructions":"Put ice in glass. Pour in shots. Fill with Sour Mix.",
+            "ingredients":[{
+                "ingredientName": "Amaretto",
+                "measurement": "1",
+                "units":"shot"
+            }, {
+                "ingredientName":"Southern comfort",
+                "measurement":"1",
+                "units":"shot"
+            }, {
+                "ingredientName":"Ice cubes"
+            }, {
+                "ingredientName":"Sour mix"
+            }]
+        },
+        {
+            "strDrink":"A Splash of Nash",
+            "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/rsvtrr1472668201.jpg",
+            "type":"Alchohol",
+            "glass":"Highball glass",
+            "category":"Others",
+            "instructions":"Drop shot glass with banana & melon liquers into a 9 oz hi- ball glass containing soda water and cranberry juice. Drink in one shot.",
+            "ingredients":[{
+                "ingredientName": "Cranberry juice",
+                "measurement": "2",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Soda water",
+                "measurement":"2",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Midori melon liqueur",
+                "measurement":"0.5",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Creme de Banane",
+                "measurement":"0.5",
+                "units":"ounce"
+                
+            }]
+        },
+        {
+            "strDrink":"A True Amaretto Sour",
+            "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/rptuxy1472669372.jpg",
+            "type":"Alchohol",
+            "glass":"Old fashioned glass",
+            "category":"Creative Commons",
+            "instructions":"Rub the rim of an old fashioned glass with lemon, and dip repeatedly into granulated sugar until it has a good frosted rim. Shake a jigger of Amaretto with the juice of 1/2 a lemon. Strain into glass and add ice. Garnish with a Marachino Cherry.",
+            "ingredients":[{
+                "ingredientName": "Amaretto",
+                "measurement": "1",
+                "units":"jigger"
+            }, {
+                "ingredientName":"Lemon juice",
+                "measurement":"1/2",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Ice cubes"
+            }, {
+                "ingredientName":"Maraschino cherry"
+                
+            }]
+        },
+        {
+            "strDrink":"After Dinner Mint",
+            "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/ruxuvp1472669600.jpg",
+            "type":"Alchohol",
+            "glass":"Irish coffee cup",
+            "category":"Creative Commons",
+            "instructions":"Shake vigorously",
+            "ingredients":[{
+                "ingredientName": "White creme de menthe",
+                "measurement": "1/2",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Southern comfort",
+                "measurement":"3/4",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Vodka",
+                "measurement":"1/2",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Hot chocolate"
+                
+            }]
+        },
+        {
+           
+            "strDrink":"Abbey Martini",
+            "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/2mcozt1504817403.jpg",
+            "type":"Alchohol",
+            "glass":"Cocktail glass",
+            "category":"Creative Commons",
+            "instructions":"Put all ingredients into a shaker and mix, then strain contents into a chilled cocktail glass.",
+            "ingredients":[{
+                "ingredientName": "Gin",
+                "measurement": "2",
+                "units":"shot"
+            }, {
+                "ingredientName":"Sweet Vermouth",
+                "measurement":"1",
+                "units":"shot"
+            }, {
+                "ingredientName":"Orange juice",
+                "measurement":"1",
+                "units":"shot"
+            }, {
+                "ingredientName":"Angostura bitters",
+                "measurement":"3",
+                "units":"dashes"
+                
+            }] 
+        },
+        {
+            "strDrink":"Abilene",
+            "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/smb2oe1582479072.jpg",
+            "type":"Alchohol",
+            "glass":"Highball glass",
+            "category":"Creative Commons",
+            "instructions":"Pour all of the ingredients into a highball glass almost filled with ice cubes. Stir well.",
+            "ingredients":[{
+                "ingredientName": "Dark rum",
+                "measurement": "1 1/2",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Peach nectar",
+                "measurement":"2",
+                "units":"ounce"
+            }, {
+                "ingredientName":"Orange juice",
+                "measurement":"3",
+                "units":"ounce"
+            }]  
+        },
+        {
+            "strDrink":"Absolut Evergreen",
+            "strDrinkThumb":"https://www.thecocktaildb.com/images/media/drink/wrxrxp1472812609.jpg",
+            "type":"Alchohol",
+            "glass":"Collins glass",
+            "category":"Others",
+            "instructions":"Mix, pour over ice and top up with Bitter Lemon.",
+            "ingredients":[{
+                "ingredientName": "Absolut Citron",
+                "measurement": "2/3",
+                "units":"part"
+            }, {
+                "ingredientName":"Pisang ambon",
+                "measurement":"1/3",
+                "units":"part"
+            }, {
+                "ingredientName":"Ice cubes"
+            }, {
+                "ingredientName":"Bitter lemon"
+            }]  
         }
     ]
 }
