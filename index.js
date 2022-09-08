@@ -24,12 +24,12 @@ const displayDrinks = (drinks) => {
       <div class="card-body">
         <p class="card-text">${drink.strDrink}</p>
         <h5 class="card-title">${drink.glass}</h5>
-        <p><bold>Category :</bold> ${drink.category}</p>
-        <p><bold>Ingredients: </bold> 
-        <li>${drink.ingredients[0].ingredientName} - ${drink.ingredients[0].measurement} ${drink.ingredients[0].units}</li>
-        <li>${drink.ingredients[1].ingredientName} - ${drink.ingredients[1].measurement} ${drink.ingredients[1].units}</li>
+        <p>Category : ${drink.category}</p>
+        <p id="ingredient-list">Ingredients: 
+        ${drink.ingredients[0].ingredientName} - ${drink.ingredients[0].measurement} ${drink.ingredients[0].units},
+        ${drink.ingredients[1].ingredientName} - ${drink.ingredients[1].measurement} ${drink.ingredients[1].units}
         </p>
-        <p><bold>Instructions :</bold> ${drink.instructions}</p>
+        <p>Instructions : ${drink.instructions}</p>
       </div>
     </div>
     </div>
@@ -39,7 +39,6 @@ const displayDrinks = (drinks) => {
 cocktailList.innerHTML = card;
 };
 fetchDrinks();
-
 
 
 // Search a cocktail by name, glass
@@ -55,6 +54,14 @@ searchByname.addEventListener('keyup', (e) => {
     );
   });
  displayDrinks(filterDrinks);
+
+ // search by a letter
+ const filterByLetter = drinks.filter(drink => {
+  return (
+    drink.strDrink.toLowerCase().includes(searchString.indexOf("a"))
+  );
+});
+displayDrinks(filterByLetter);
 })
 
 // Toggle light mode and dark mode
@@ -67,14 +74,14 @@ element.addEventListener("click", () => {
 
 // Random cocktail generator
 
-// function getRandomCocktail() {
-//   // get random index value
-//   let randomIndex = Math.floor(Math.random() * drinks.length);
-//   // get random item
-//   let item = [...drinks][randomIndex];
-//   cocktailList.innerHTML = "";
-//   displayDrinks(item);
-// }
+function getRandomCocktail() {
+  // get random index value
+  let randomIndex = Math.floor(Math.random() * drinks.length);
+  // get random item
+  let item = drinks[randomIndex];
+  cocktailList.innerHTML = "";
+  displayDrinks([item]);
+}
 
 
 const randomDrinkbtn = document.getElementById("random-drink");
