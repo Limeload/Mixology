@@ -102,11 +102,11 @@
             "ingredients":[{
                 "ingredientName":"Vodka",
                 "measurement":"1",
-                "unit":"shot"
+                "units":"shot"
             }, {
                 "ingredientName":"Grenadine",
                 "measurement":"1",
-                "unit":"tbsp"
+                "units":"tbsp"
             }, {
                 "ingredientName":"Orange juice"
             }]
@@ -195,7 +195,8 @@
                 "units":"ounce"
             }, {
                 "ingredientName":" Whole lime",
-                "measurement":"1"
+                "measurement":"1",
+                "units": ""
             }, {
                 "ingredientName":"Sugar",
                 "measurement":"2",
