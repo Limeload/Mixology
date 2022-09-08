@@ -18,13 +18,9 @@ What a user can do :
 Enrichment and images integration with [TheCocktailDB](https://www.thecocktaildb.com/) 
 ## Project Setup
 
-To run this project locally you'll need to install ```nodejs / npm``` .
-Clone the respository, then:
+To run this project locally you'll need clone the respository, then:
 
-```npm install```
-```npm start```
-
-Install `json-server` globally and run the command below to run the server:
+install `json-server` globally and run the command below to run the server:
 
 `$ json-server --watch db.json`
 
@@ -49,4 +45,8 @@ As a visitor of the Mixology website, a user can expect the following:
 * To be able to find cocktail recipes with ingredients available by a user.
 * High quality images of the cocktail.
 * To be able to suggest when a user is indecisive.
+
+## Figma 
+
+[Mixology](https://www.figma.com/file/n998uI76s77s8PYLzLaooj/Mixology?node-id=0%3A1)
 
