@@ -8,22 +8,19 @@
             "glass": "Wine glass",
             "category": "Others",
             "instructions": "Blend with ice. Serve in a wine glass. Garnish with carrot.",
+            "units": "shots",
             "ingredients": [{
                 "ingredientName": "Dark rum",
-                "measurement": "1",
-                "units": "shot"
+                "measurement": "1"
             },{
                 "ingredientName": "Light rum",
-                "measurement": "2",
-                "units":"shot"
+                "measurement": "2"
             },{
                 "ingredientName": "Vodka",
-                "measurement":"1",
-                "units":"shot"
+                "measurement":"1"
             },{
                 "ingredientName": "Orange juice",
-                "measurement":"1",
-                "units":"shot"
+                "measurement":"1"
             }]
         },
         {
@@ -33,15 +30,14 @@
             "type":"Alchohol",
             "glass": "Highball glass",
             "category":"Others",
+            "units":"ounces",
             "instructions": "Fill a rocks glass with ice, add white creme de cacao and vodka and stir",
             "ingredients":[{
                 "ingredientName": "Creme de Cacao",
-                "measurement":"1",
-                "units": "ounce"
+                "measurement":"1"
             },{
                 "ingredientName": "Vodka",
-                "measurement":"1",
-                "units": "ounce"
+                "measurement":"1"
             }]
         },
         {
@@ -51,23 +47,20 @@
             "type":"Alchohol",
             "glass": "Martini glass",
             "category":"Others",
+            "units":"shots",
             "instructions": "Shake all the ingredients in a cocktail shaker and ice then strain in a cold glass.",
             "ingredients":[{
                 "ingredientName": "Gin",
-                "measurement":"2",
-                "units":"shot"
+                "measurement":"2"
             }, {
                 "ingredientName": "Grenadine",
-                "measurement":"1/2",
-                "units":"shot"
+                "measurement":"1/2"
             }, {
                 "ingredientName": "Heavy cream",
-                "measurement":"1/2",
-                "units":"shot"
+                "measurement":"1/2"
             }, {
                 "ingredientName": "Milk",
-                "measurement":"1/2",
-                "units":"shot"
+                "measurement":"1/2"
             },{
                 "ingredientName":"Fresh egg white",
                 "measurement":"1/2"
@@ -80,15 +73,14 @@
             "type":"Alchohol",
             "glass":"Martini glass",
             "category":"Others",
+            "units":"shots",
             "instructions":"Shake together all the ingredients and strain into a cold glass.",
             "ingredients":[{
                 "ingredientName":"Gin",
-                "measurement":"1 1/2",
-                "units":"shot"
+                "measurement":"1 1/2"
             }, {
                 "ingredientName":"Vermouth",
-                "measurement":"1 1/2",
-                "units":"shot"
+                "measurement":"1 1/2"
             }]
         },
         {
@@ -99,16 +91,16 @@
             "glass":"Old fashioned glass",
             "category":"Others",
             "instructions": "Combine ingredients in the order listed into a shaker.Fill half full with ice and shake well.Strain into glass with ice and garnish with a cherry and orange wedge.",
+            "units":"tbsp",
             "ingredients":[{
                 "ingredientName":"Vodka",
-                "measurement":"1",
-                "units":"shot"
+                "measurement":"1"
             }, {
                 "ingredientName":"Grenadine",
-                "measurement":"1",
-                "units":"tbsp"
+                "measurement":"1"
             }, {
-                "ingredientName":"Orange juice"
+                "ingredientName":"Orange juice",
+                "measurement":"1"
             }]
         },
         {
@@ -119,22 +111,19 @@
             "glass": "Cocktail glass",
             "category": "Contemporary classic",
             "instructions": "Add all ingredients into cocktail shaker filled with ice. Shake well and double strain into large cocktail glass. Garnish with lime wheel.",
+            "units":"ounces",
             "ingredients":[{
                 "ingredientName": "Absolut Citron",
-                "measurement":"1 1/4",
-                "units":"ounce"
+                "measurement":"1 1/4"
             }, {
                 "ingredientName": "Lime juice",
-                "measurement":"1/4",
-                "units":"ounce"
+                "measurement":"1/4"
             }, {
                 "ingredientName": "Cointreau",
-                "measurement":"1/4",
-                "units":"ounce"
+                "measurement":"1/4"
             }, {
                 "ingredientName": "Cranberry juice",
-                "measurement":"1/4",
-                "units": "cup"
+                "measurement":"1/4 cup"
             }]
             
         },
@@ -146,18 +135,16 @@
             "glass":"Cocktail glass",
             "category": "New era",
             "instructions": "Pour all ingredients into shaker with ice cubes. Shake well and strain into a chilled cocktail glass. Squeeze oil from lemon peel onto the drink.",
+            "units":"cl",
             "ingredients":[{
                 "ingredientName": "Vodka",
-                "measurement": "4.5",
-                "units": "cl"
+                "measurement": "4.5"
             }, {
                 "ingredientName": "Raspberry liqueur",
-                "measurement":"1.5",
-                "units":"cl"
+                "measurement":"1.5"
             }, {
                 "ingredientName": "Pineapple juice",
-                "measurement":"1.5",
-                "units":"cl"
+                "measurement":"1.5"
             }]
         },
         {
@@ -168,17 +155,13 @@
             "glass":"Cocktail glass",
             "category":"Others",
             "instructions":"Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.",
+            "units":"ounces",
             "ingredients":[{
                 "ingredientName": "Gin",
-                "measurement":"1 2/3",
-                "units":"ounce"
+                "measurement":"1 2/3"
             }, {
                 "ingredientName": "Dry vermouth",
-                "measurement": "1/3",
-                "units":"ounce"
-            }, {
-                "ingredientName": "Whole olive",
-                "measurement":"1"
+                "measurement": "1/3"
             }]
         },
         {
@@ -189,23 +172,22 @@
             "glass":"Highball glass",
             "category":"Contemporary classic",
             "instructions": "Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.",
+            "units":"ounces",
             "ingredients":[{
                 "ingredientName": "Light rum",
-                "measurement":"2",
-                "units":"ounce"
+                "measurement":"2"
             }, {
                 "ingredientName":" Whole lime",
-                "measurement":"1",
-                "units": ""
+                "measurement":"1"
             }, {
                 "ingredientName":"Sugar",
-                "measurement":"2",
-                "units":"tsp"
+                "measurement":"2 tsp"
             }, {
                 "ingredientName": "Whole Mint",
                 "measurement":"4"
             }, {
-                "ingredientName": "Soda water"
+                "ingredientName": "Soda water",
+                "measurement":"1"
             }]
         }, 
         {
@@ -215,22 +197,19 @@
             "glass":"Highball glass",
             "category":"Summer",
             "instructions":"Shake Rum, Amaretto, and Orange Juice in a shaker filled with ice. Strain over ice into a highball glass. Add Grenadine and garnish with a Pineapple Wedge and a Strawberry.",
+            "units":"ounces",
             "ingredients":[{
                 "ingredientName": "Coconut rum",
-                "measurement": "1",
-                "units":"ounce"
+                "measurement": "1"
             }, {
                 "ingredientName": "Amaretto",
-                "measurement":"1/2",
-                "units":"ounce"
+                "measurement":"1/2"
             }, {
                 "ingredientName":"Orange juice",
-                "measurement":"4",
-                "units":"ounce"
+                "measurement":"4"
             }, {
                 "ingredientName":"Grenadine",
-                "measurement":"1/2",
-                "units":"ounce"
+                "measurement":"1/2"
             }]
         }, 
         {
@@ -240,16 +219,16 @@
             "glass":"Highball glass",
             "category":"Others",
             "instructions":"Pour the rum and ginger beer into a highball glass almost filled with ice cubes. Stir well. Garnish with the lemon twist.",
+            "units":"ounces",
             "ingredients":[{
                 "ingredientName":"Light rum",
-                "measurement":"2",
-                "units": "ounce"
+                "measurement":"2"
             }, {
                 "ingredientName":"Ginger beer",
-                "measurement":"4",
-                "units":"ounce"
+                "measurement":"4"
             }, {
-                "ingredientName": "Lemon peel"
+                "ingredientName": "Lemon peel",
+                "measurement":"1 peel"
             }]
 
         } ,
@@ -259,23 +238,20 @@
             "type":"Alchohol",
             "glass": "Collins glass",
             "category":"Others",
+            "units":"ounces",
             "instructions":"Shaken, not stirred!",
             "ingredients":[{
                 "ingredientName":"Vodka",
-                "measurement":"1",
-                "units":"ounce"
+                "measurement":"1"
             }, {
                 "ingredientName":"Peach schnapps",
-                "measurement":"1",
-                "units":"ounce"
+                "measurement":"1"
             }, {
                 "ingredientName":"Orange juice",
-                "measurement":"3",
-                "units":"ounce"
+                "measurement":"3"
             }, {
                 "ingredientName":"Cranberry juice",
-                "measurement":"3",
-                "units":"ounce"
+                "measurement":"3"
             }]
         }, 
         {
@@ -285,23 +261,22 @@
             "glass":"Collins glass",
             "category":"Summer",
             "instructions":"Mix the strawberrys in a blender Pour it together with the vodka,kirch and strawberry liquer over ice in a shaker. Shake well and pour in a highballglass. Fill up with the Russchian water",
+            "units":"ounces",
             "ingredients":[{
                 "ingredientName":"Vodka",
-                "measurement":"2",
-                "units":"ounce"
+                "measurement":"2"
             }, {
                 "ingredientName":"Kirschwasser",
-                "measurement":"1",
-                "units":"ounce"
+                "measurement":"1"
             }, {
                 "ingredientName":"Strawberry liqueur",
-                "measurement":"1",
-                "units":"tsp"
+                "measurement":"1 tsp"
             }, {
                 "ingredientName": "Whole strawberries",
                 "measurement":"5"
             }, {
-                "ingredientName": "Schweppes Russchian"
+                "ingredientName": "Schweppes Russchian",
+                "measurement":"1"
             }]
         }, 
         {
@@ -311,28 +286,22 @@
             "glass":"Highball glass",
             "category":"Others",
             "instructions":"In a shaker half-filled with ice cubes, combine the light rum, añejo rum, orange juice, and lemon juice. Shake well. Strain into a highball glass almost filled with ice cubes. Top with the ginger ale. Garnish with the lemon twist.",
+            "units":"ounces",
             "ingredients":[{
                 "ingredientName": "Light rum",
-                "measurement": "1",
-                "units":"ounce"
+                "measurement": "1"
             }, {
                 "ingredientName":"Anejo rum",
-                "measurement":"1",
-                "units":"ounce"
+                "measurement":"1"
             }, {
                 "ingredientName":"Orange juice",
-                "measurement":"1",
-                "units":"ounce"
+                "measurement":"1"
             }, {
                 "ingredientName":"Lemon juice",
-                "measurement":"1/2",
-                "units":"ounce"
+                "measurement":"1/2"
             }, {
                 "ingredientName":"Ginger ale",
-                "measurement":"3",
-                "units":"ounce"
-            }, {
-                "ingredientName":"Lemon peel"
+                "measurement":"3"
             }]
         },
         {
@@ -342,18 +311,13 @@
             "glass":"Highball glass",
             "category":"Others",
             "instructions":"Put ice in glass. Pour in shots. Fill with Sour Mix.",
+            "units":"shots",
             "ingredients":[{
                 "ingredientName": "Amaretto",
-                "measurement": "1",
-                "units":"shot"
+                "measurement": "1"
             }, {
                 "ingredientName":"Southern comfort",
-                "measurement":"1",
-                "units":"shot"
-            }, {
-                "ingredientName":"Ice cubes"
-            }, {
-                "ingredientName":"Sour mix"
+                "measurement":"1"
             }]
         },
         {
@@ -363,23 +327,19 @@
             "glass":"Highball glass",
             "category":"Others",
             "instructions":"Drop shot glass with banana & melon liquers into a 9 oz hi- ball glass containing soda water and cranberry juice. Drink in one shot.",
+            "units":"ounces",
             "ingredients":[{
                 "ingredientName": "Cranberry juice",
-                "measurement": "2",
-                "units":"ounce"
+                "measurement": "2"
             }, {
                 "ingredientName":"Soda water",
-                "measurement":"2",
-                "units":"ounce"
+                "measurement":"2"
             }, {
                 "ingredientName":"Midori melon liqueur",
-                "measurement":"0.5",
-                "units":"ounce"
+                "measurement":"0.5"
             }, {
                 "ingredientName":"Creme de Banane",
-                "measurement":"0.5",
-                "units":"ounce"
-                
+                "measurement":"0.5"   
             }]
         },
         {
@@ -389,18 +349,19 @@
             "glass":"Old fashioned glass",
             "category":"Creative Commons",
             "instructions":"Rub the rim of an old fashioned glass with lemon, and dip repeatedly into granulated sugar until it has a good frosted rim. Shake a jigger of Amaretto with the juice of 1/2 a lemon. Strain into glass and add ice. Garnish with a Marachino Cherry.",
+            "units":"ounces",
             "ingredients":[{
                 "ingredientName": "Amaretto",
-                "measurement": "1",
-                "units":"jigger"
+                "measurement": "1 jigger"
             }, {
                 "ingredientName":"Lemon juice",
-                "measurement":"1/2",
-                "units":"ounce"
+                "measurement":"1/2"
             }, {
-                "ingredientName":"Ice cubes"
+                "ingredientName":"Ice cubes",
+                "measurement":"2-3"
             }, {
-                "ingredientName":"Maraschino cherry"
+                "ingredientName":"Maraschino cherry",
+                "measurement":"2-3"
                 
             }]
         },
@@ -411,21 +372,19 @@
             "glass":"Irish coffee cup",
             "category":"Creative Commons",
             "instructions":"Shake vigorously",
+            "units":"ounces",
             "ingredients":[{
                 "ingredientName": "White creme de menthe",
-                "measurement": "1/2",
-                "units":"ounce"
+                "measurement": "1/2"
             }, {
                 "ingredientName":"Southern comfort",
-                "measurement":"3/4",
-                "units":"ounce"
+                "measurement":"3/4"
             }, {
                 "ingredientName":"Vodka",
-                "measurement":"1/2",
-                "units":"ounce"
+                "measurement":"1/2"
             }, {
-                "ingredientName":"Hot chocolate"
-                
+                "ingredientName":"Hot chocolate",
+                "measurement":"1"
             }]
         },
         {
@@ -436,22 +395,19 @@
             "glass":"Cocktail glass",
             "category":"Creative Commons",
             "instructions":"Put all ingredients into a shaker and mix, then strain contents into a chilled cocktail glass.",
+            "units":"shots",
             "ingredients":[{
                 "ingredientName": "Gin",
-                "measurement": "2",
-                "units":"shot"
+                "measurement": "2"
             }, {
                 "ingredientName":"Sweet Vermouth",
-                "measurement":"1",
-                "units":"shot"
+                "measurement":"1"
             }, {
                 "ingredientName":"Orange juice",
-                "measurement":"1",
-                "units":"shot"
+                "measurement":"1"
             }, {
                 "ingredientName":"Angostura bitters",
-                "measurement":"3",
-                "units":"dashes"
+                "measurement":"3 dashes"
                 
             }] 
         },
@@ -462,18 +418,16 @@
             "glass":"Highball glass",
             "category":"Creative Commons",
             "instructions":"Pour all of the ingredients into a highball glass almost filled with ice cubes. Stir well.",
+            "units":"ounces",
             "ingredients":[{
                 "ingredientName": "Dark rum",
-                "measurement": "1 1/2",
-                "units":"ounce"
+                "measurement": "1 1/2"
             }, {
                 "ingredientName":"Peach nectar",
-                "measurement":"2",
-                "units":"ounce"
+                "measurement":"2"
             }, {
                 "ingredientName":"Orange juice",
-                "measurement":"3",
-                "units":"ounce"
+                "measurement":"3"
             }]  
         },
         {
@@ -482,19 +436,20 @@
             "type":"Alchohol",
             "glass":"Collins glass",
             "category":"Others",
+            "units":"parts",
             "instructions":"Mix, pour over ice and top up with Bitter Lemon.",
             "ingredients":[{
                 "ingredientName": "Absolut Citron",
-                "measurement": "2/3",
-                "units":"part"
+                "measurement": "2/3"
             }, {
                 "ingredientName":"Pisang ambon",
-                "measurement":"1/3",
-                "units":"part"
+                "measurement":"1/3"
             }, {
-                "ingredientName":"Ice cubes"
+                "ingredientName":"Ice cubes",
+                "measurement":"2-3",
             }, {
-                "ingredientName":"Bitter lemon"
+                "ingredientName":"Bitter lemon",
+                "measurement":"1"
             }]  
         }
     ]
