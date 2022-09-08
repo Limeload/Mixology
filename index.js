@@ -3,16 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 let drinks = [];
-let drinksArray = [];
-let numberOfDrinks;
 
 const fetchDrinks = async () => {
 let url = 'http://localhost:3000/drinks';
 
 const response = await fetch(url);
 drinks = await response.json();
-drinksArray = [...drinks];
-numberOfDrinks = drinks.length;
 displayDrinks(drinks);
 }
 
@@ -28,6 +24,7 @@ const displayDrinks = (drinks) => {
       <div class="card-body">
         <p class="card-text">${drink.strDrink}</p>
         <h5 class="card-title">${drink.glass}</h5>
+       <p><a href="" id="recipe" style=" text-decoration: none; font-size:12px;"> View details </a> </p>
       </div>
     </div>
     </div>
@@ -39,8 +36,9 @@ cocktailList.innerHTML = card;
 fetchDrinks();
 
 
+// Displaying details of the recipe
 
-// Search a cocktail by name
+// Search a cocktail by name, glass
 
 const searchByname = document.getElementById('search-bar');
 
@@ -48,8 +46,8 @@ searchByname.addEventListener('keyup', (e) => {
  const searchString = e.target.value;
  const filterDrinks =  drinks.filter(drink => {
     return (
-      drink.strDrink.includes(searchString) || 
-      drink.glass.includes(searchString)
+      drink.strDrink.toLowerCase().includes(searchString.toLowerCase()) || 
+      drink.glass.toLowerCase().includes(searchString.toLowerCase())
     );
   });
  displayDrinks(filterDrinks);
@@ -65,16 +63,14 @@ element.addEventListener("click", () => {
 
 // Random cocktail generator
 
-
 function getRandomCocktail() {
   // get random index value
-  let randomIndex = Math.floor(Math.random() * numberOfDrinks);
+  let randomIndex = Math.floor(Math.random() * drinks.length);
   // get random item
-  let item = drinksArray[randomIndex];
+  let item = [...drinks][randomIndex];
   cocktailList.innerHTML = "";
   displayDrinks(item);
 }
-
 
 const randomDrinkbtn = document.getElementById("random-drink");
 randomDrinkbtn.addEventListener("click", getRandomCocktail);
