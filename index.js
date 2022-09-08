@@ -49,11 +49,11 @@ searchByname.addEventListener('keyup', (e) => {
  const searchString = e.target.value;
  const filterDrinks =  drinks.filter(drink => {
     return (
-      drink.strDrink.toLowerCase().includes(searchString.toLowerCase()) || 
-      drink.glass.toLowerCase().includes(searchString.toLowerCase())
-    );
+      drink.strDrink.toLowerCase().includes(searchString.toLowerCase()) 
+    )
   });
  displayDrinks(filterDrinks);
+})
 
 // Toggle light mode and dark mode
 
