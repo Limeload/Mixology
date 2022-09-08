@@ -55,15 +55,6 @@ searchByname.addEventListener('keyup', (e) => {
   });
  displayDrinks(filterDrinks);
 
- // search by a letter
- const filterByLetter = drinks.filter(drink => {
-  return (
-    drink.strDrink.toLowerCase().includes(searchString.indexOf("a"))
-  );
-});
-displayDrinks(filterByLetter);
-})
-
 // Toggle light mode and dark mode
 
 const element = document.getElementById("togglebtn");
