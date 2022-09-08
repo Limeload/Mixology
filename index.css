@@ -16,6 +16,15 @@ body {
     background-color: var(--bs-body-bg);
   }
 
+  p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 11px;
+  }
+
+  li {
+    font-size: 11px;
+  }
+
   .nav {
     display: flex;
     flex-wrap: wrap;

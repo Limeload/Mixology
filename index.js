@@ -24,7 +24,12 @@ const displayDrinks = (drinks) => {
       <div class="card-body">
         <p class="card-text">${drink.strDrink}</p>
         <h5 class="card-title">${drink.glass}</h5>
-       <p><a href="" id="recipe" style=" text-decoration: none; font-size:12px;"> View details </a> </p>
+        <p><bold>Category :</bold> ${drink.category}</p>
+        <p><bold>Ingredients: </bold> 
+        <li>${drink.ingredients[0].ingredientName} - ${drink.ingredients[0].measurement} ${drink.ingredients[0].units}</li>
+        <li>${drink.ingredients[1].ingredientName} - ${drink.ingredients[1].measurement} ${drink.ingredients[1].units}</li>
+        </p>
+        <p><bold>Instructions :</bold> ${drink.instructions}</p>
       </div>
     </div>
     </div>
@@ -36,7 +41,6 @@ cocktailList.innerHTML = card;
 fetchDrinks();
 
 
-// Displaying details of the recipe
 
 // Search a cocktail by name, glass
 
@@ -63,14 +67,15 @@ element.addEventListener("click", () => {
 
 // Random cocktail generator
 
-function getRandomCocktail() {
-  // get random index value
-  let randomIndex = Math.floor(Math.random() * drinks.length);
-  // get random item
-  let item = [...drinks][randomIndex];
-  cocktailList.innerHTML = "";
-  displayDrinks(item);
-}
+// function getRandomCocktail() {
+//   // get random index value
+//   let randomIndex = Math.floor(Math.random() * drinks.length);
+//   // get random item
+//   let item = [...drinks][randomIndex];
+//   cocktailList.innerHTML = "";
+//   displayDrinks(item);
+// }
+
 
 const randomDrinkbtn = document.getElementById("random-drink");
 randomDrinkbtn.addEventListener("click", getRandomCocktail);
