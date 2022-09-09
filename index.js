@@ -12,7 +12,6 @@ drinks = await response.json();
 displayDrinks(drinks);
 }
 
-// Displaying data that will render it into index.html(card)
 const cocktailList = document.querySelector('#cocktail-list');
 
 const displayDrinks = (drinks) => {
@@ -41,7 +40,6 @@ cocktailList.innerHTML = card;
 fetchDrinks();
 
 
-// Search a cocktail by name, glass
 
 const searchByname = document.getElementById('search-bar');
 
@@ -55,7 +53,6 @@ searchByname.addEventListener('keyup', (e) => {
  displayDrinks(filterDrinks);
 })
 
-// Toggle light mode and dark mode
 
 const element = document.getElementById("togglebtn");
 
@@ -63,12 +60,9 @@ element.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
 
-// Random cocktail generator
 
 function getRandomCocktail() {
-  // get random index value
   let randomIndex = Math.floor(Math.random() * drinks.length);
-  // get random item
   let item = drinks[randomIndex];
   cocktailList.innerHTML = "";
   displayDrinks([item]);
@@ -78,7 +72,6 @@ function getRandomCocktail() {
 const randomDrinkbtn = document.getElementById("random-drink");
 randomDrinkbtn.addEventListener("click", getRandomCocktail);
 
-// Display all drinks
 
 const showAllDrinks = document.getElementById("show-all");
 showAllDrinks.addEventListener("click", () => {
