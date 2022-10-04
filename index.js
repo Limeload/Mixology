@@ -56,7 +56,7 @@ searchByname.addEventListener('keyup', (e) => {
 
 const element = document.getElementById("togglebtn");
 
-element.addEventListener("click", () => {
+element.addEventListener("mouseover", () => {
   document.body.classList.toggle("dark-mode");
 });
 
