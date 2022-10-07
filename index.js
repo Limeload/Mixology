@@ -56,7 +56,7 @@ searchByname.addEventListener('keyup', (e) => {
 
 const element = document.getElementById("togglebtn");
 
-element.addEventListener("mouseover", () => {
+element.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
 
@@ -74,6 +74,6 @@ randomDrinkbtn.addEventListener("click", getRandomCocktail);
 
 
 const showAllDrinks = document.getElementById("show-all");
-showAllDrinks.addEventListener("click", () => {
+showAllDrinks.addEventListener("mouseover", () => {
   displayDrinks(drinks);
 });
