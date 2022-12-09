@@ -26,7 +26,8 @@ const displayDrinks = (drinks) => {
         <p>Category : ${drink.category}</p>
         <p id="ingredient-list">Ingredients: 
         ${drink.ingredients[0].ingredientName} - ${drink.ingredients[0].measurement} ${drink.ingredients[0].units},
-        ${drink.ingredients[1].ingredientName} - ${drink.ingredients[1].measurement} ${drink.ingredients[1].units}
+        ${drink.ingredients[1].ingredientName} - ${drink.ingredients[1].measurement} ${drink.ingredients[1].units},
+        ${drink.ingredients[2].ingredientName} - ${drink.ingredients[2].measurement} ${drink.ingredients[2].units}
         </p>
         <p>Instructions : ${drink.instructions}</p>
       </div>
