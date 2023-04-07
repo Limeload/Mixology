@@ -1,6 +1,6 @@
 # Mixology
 
-Mixology is a Single Page Application allowing different kinds of selection operations over Cocktail recipes. 
+Mixology is a Single Page Application allowing different kinds of selection operations over Cocktail recipes.
 
 What a user can do :
 * Search a cocktail recipe by name.
@@ -15,7 +15,7 @@ What a user can do :
 
 ## Credits
 
-Enrichment and images integration with [TheCocktailDB](https://www.thecocktaildb.com/) 
+Enrichment and images integration with [TheCocktailDB](https://www.thecocktaildb.com/)
 ## Project Setup
 
 To run this project locally you'll need clone the respository, then:
@@ -46,7 +46,7 @@ As a visitor of the Mixology website, a user can expect the following:
 * High quality images of the cocktail.
 * To be able to suggest when a user is indecisive.
 
-## Figma 
+## Figma
 
 [Mixology](https://www.figma.com/file/n998uI76s77s8PYLzLaooj/Mixology?node-id=0%3A1)
 

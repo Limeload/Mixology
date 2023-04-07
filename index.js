@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => { 
+document.addEventListener('DOMContentLoaded', () => {
     fetchDrinks();
 })
 
@@ -23,13 +23,14 @@ const displayDrinks = (drinks) => {
       <div class="card-body">
         <p class="card-text">${drink.strDrink}</p>
         <h5 class="card-title">${drink.glass}</h5>
-        <p>Category : ${drink.category}</p>
-        <p id="ingredient-list">Ingredients: 
+        <p class="category">Category : ${drink.category}</p>
+        <p class="ingredients" id="ingredient-list">Ingredients:
         ${drink.ingredients[0].ingredientName} - ${drink.ingredients[0].measurement} ${drink.ingredients[0].units},
         ${drink.ingredients[1].ingredientName} - ${drink.ingredients[1].measurement} ${drink.ingredients[1].units},
         ${drink.ingredients[2].ingredientName} - ${drink.ingredients[2].measurement} ${drink.ingredients[2].units}
         </p>
-        <p>Instructions : ${drink.instructions}</p>
+        <p class="instructions">Instructions : ${drink.instructions}</p>
+        <button class="favorite-button" id="drink-${drink.idDrink}"><i class="fas fa-heart"></i><3</button>
       </div>
     </div>
     </div>
@@ -48,7 +49,7 @@ searchByname.addEventListener('keyup', (e) => {
  const searchString = e.target.value;
  const filterDrinks =  drinks.filter(drink => {
     return (
-      drink.strDrink.toLowerCase().includes(searchString.toLowerCase()) 
+      drink.strDrink.toLowerCase().includes(searchString.toLowerCase())
     )
   });
  displayDrinks(filterDrinks);
@@ -77,4 +78,16 @@ randomDrinkbtn.addEventListener("click", getRandomCocktail);
 const showAllDrinks = document.getElementById("show-all");
 showAllDrinks.addEventListener("mouseover", () => {
   displayDrinks(drinks);
+});
+
+const favoriteButtons = document.querySelectorAll('.favorite-button');
+const favoritesList = [];
+
+favoriteButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const drinkId = button.id.split('-')[1];
+    const drink = getDrinkById(drinkId); // assume this function returns the drink object based on its id
+    favoritesList.push(drink);
+    console.log(favoritesList); // for testing purposes
+  });
 });
