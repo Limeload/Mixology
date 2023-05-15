@@ -310,9 +310,10 @@ label.form-check-label {
 
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
-  color: rgb(94, 90, 90);
+  color: rgb(0, 0, 0);
   font-family: 'Comfortaa', cursive;
   font-weight: bolder;
+  background-color: #ccc;
 }
 
 .card-text{
@@ -324,7 +325,6 @@ label.form-check-label {
 
 .category {
   font-weight: bolder;
-  background-color: rgb(255, 243, 226);
 }
 
 .ingredients {
@@ -333,5 +333,4 @@ label.form-check-label {
 
 .instructions {
   font-weight: bolder;
-  background-color: rgb(244, 244, 244);
 }
