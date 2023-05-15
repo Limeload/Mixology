@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mixology</title>
-    <link href="./index.css" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="./index.css" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;368;400&family=Manrope:wght@600&display=swap" rel="stylesheet">
     <script src="./index.js" defer></script>
   </head>
@@ -19,9 +19,15 @@
             </div>
         </form>
           <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" id="random-bar" href="">
+                <img src="./images/martini-thin.png" alt="" width="30">
+                Favorites
+            </a>
+            </li>
             <div class="form-check form-switch">
                 <input class="form-check-input" type="checkbox" role="switch" id="togglebtn">
-                <label class="form-check-label" for="togglebtn" id="labelToggle"> 
+                <label class="form-check-label" for="togglebtn" id="labelToggle">
               </div>
           </ul>
         </div>
@@ -35,6 +41,6 @@
         </div>
         </div>
     <div id ="cocktail-list"></div>
-    
+
   </body>
 </html>
