@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 let drinks = [];
 
 const fetchDrinks = async () => {
-  let url = 'http://localhost:3000/drinks';
+  let url = '/.netlify/functions/getDrinks';
 
   const response = await fetch(url);
   drinks = await response.json();
