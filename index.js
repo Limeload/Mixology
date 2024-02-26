@@ -1,3 +1,30 @@
+// Importing required modules
+const jsonServer = require("json-server");
+const express = require("express");
+
+// Creating an Express app
+const app = express();
+
+// Using json-server middleware to serve the db.json file
+const server = jsonServer.create();
+const router = jsonServer.router("db.json");
+const middlewares = jsonServer.defaults();
+
+// Specify the port for JSON server
+const jsonServerPort = process.env.JSON_SERVER_PORT || 3001;
+
+server.use(middlewares);
+server.use(router);
+
+// Starting JSON server
+server.listen(jsonServerPort, () => {
+  console.log(`JSON Server is running on port ${jsonServerPort}`);
+});
+
+// Serve your front-end application
+const port = process.env.PORT || 3000; // Port for your front-end application
+
+// Your existing front-end code
 document.addEventListener('DOMContentLoaded', () => {
   fetchDrinks();
 });
@@ -5,12 +32,24 @@ document.addEventListener('DOMContentLoaded', () => {
 let drinks = [];
 
 const fetchDrinks = async () => {
-  let url = '/db.json';
+  let url = '/drinks'; // Assuming you're fetching data from JSON server
 
-  const response = await fetch(url);
-  drinks = await response.json();
-  displayDrinks(drinks);
+  // Fetch drinks from the JSON server
+  try {
+    const response = await fetch(url);
+    drinks = await response.json();
+    displayDrinks(drinks);
+  } catch (error) {
+    console.error('Error fetching drinks:', error);
+  }
 };
+
+// Other front-end code continues...
+
+// Start the Express server for your front-end application
+app.listen(port, () => {
+  console.log(`Front-end server is running on port ${port}`);
+});
 
 const cocktailList = document.querySelector('#cocktail-list');
 
