@@ -2,17 +2,14 @@
   "name": "mixology",
   "version": "1.0.0",
   "description": "Mixology is a Single Page Application allowing different kinds of selection operations over Cocktail recipes.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "json-server --watch public/db.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
-    "json-server": "^1.0.0-alpha.23"
+    "json-server": "^0.16.3"
   }
 }
